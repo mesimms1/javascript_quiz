@@ -1,4 +1,5 @@
 
+//variables that connect to the html
 const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
@@ -8,13 +9,14 @@ const answerButtonsElement = document.getElementById('answer-buttons');
 let shuffledQuestions, currentQuestionIndex
 
 
-
+//event listeners for start and next buttons
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
 
+//start game function with random questions
 function startGame(){
   console.log('Started')
   startButton.classList.add('hide')
@@ -27,11 +29,13 @@ function startGame(){
 
 }
 
+//next question function
 function setNextQuestion(){
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
+//show question function
 function showQuestion(question) {
   questionElement.innerText = question.question
   question.answers.forEach(answer => {
@@ -46,6 +50,7 @@ function showQuestion(question) {
   })
 }
 
+//reset the quiz function when quiz ends 
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
@@ -55,6 +60,7 @@ function resetState() {
   
 }
 
+//select specific answers function
 function selectAnswer(e){
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
@@ -71,6 +77,7 @@ function selectAnswer(e){
   
 }
 
+//function to let user know if answer was correct or in correct
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
@@ -81,19 +88,42 @@ function setStatusClass(element, correct) {
     
 }
 
+//function to clear classes when next question is set up. 
 function clearStatusClass(element){
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
 
+//list of questions
 let questions = [
   {
     question: 'What is 2+2?',
     answers: [
-      { text: '4', correct: true
-},
-      { text: '22', correct: false},
-    
+      { text: '4', correct: true},
+      { text: '22', correct: false}
+    ]
+  },
+  {
+  question: 'JavaScript is case-sensitive',
+  answers: [
+    { text: 'True', correct: true},
+    { text: 'False', correct: false}
+  ]
+  },
+  {
+  question: 'With JavaScript, the third control statement in a for loop usually does what?',
+  answers: [
+    { text: 'Sets the Termination Condition', correct: false},
+    { text: 'Increments a Counter', correct: true},
+    { text: 'Creates a control variable', correct: false}
+  ]
+  },
+  {
+  question: 'Which event is used to run something after the page has finished loading?',
+  answers: [
+    { text: 'onfinished', correct: false},
+    { text: 'oncomplete', correct: false},
+    { text: 'onload', correct: true}
   ]
   }
   ]
