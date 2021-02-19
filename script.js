@@ -117,7 +117,8 @@ let questions = [
   answers: [
     { text: 'Sets the Termination Condition', correct: false},
     { text: 'Increments a Counter', correct: true},
-    { text: 'Creates a control variable', correct: false}
+    { text: 'Creates a control variable', correct: false}, 
+    { text: 'Sets the default function', correct: false}
   ]
   },
 
@@ -126,8 +127,118 @@ let questions = [
   answers: [
     { text: 'onfinished', correct: false},
     { text: 'oncomplete', correct: false},
+    { text: 'onpage', correct: false},
     { text: 'onload', correct: true}
   ]
-  }
+  },
+
+  {
+    question: 'With JavaScript, which of the following is NOT a logical operator?',
+    answers: [
+      { text: '&', correct: true},
+      { text: '&&', correct: false},
+      { text: '||', correct: false},
+      { text: '!', correct: false}
+    ]
+    }, 
+
+  {
+    question: 'With JavaScript, which of the following is true if x and y are NOT equal?',
+    answers: [
+      { text: 'if x != y', correct: false},
+      { text: 'if (x != y)', correct: true},
+      { text: 'if x not= y', correct: false},
+      { text: 'if (x not y)', correct: false}
+    ]
+    }, 
+
+  {
+    question: 'With JavaScript, how do you write a conditional statement for executing some code if \"i\" is equal to 5.',
+    answers: [
+      { text: 'if i == 5 then', correct: false},
+      { text: 'if (i == 5)', correct: true},
+      { text: 'if i = 5', correct: false},
+      { text: 'if (i = 5) then', correct: false}
+    ]
+    }, 
+
+  {
+    question: 'Which DOM method is supported by most browsers?',
+    answers: [
+      { text: 'x.getElementById(id)', correct: false},
+      { text: 'x.getElementByTagName(name)', correct: false},
+      { text: 'both of the methods are supported by most browsers', correct: true}
+    ]
+    }, 
+
+  {
+    question: 'With JavaScript, which of the following is NOT a valid parameter',
+    answers: [
+      { text: 'text', correct: false},
+      { text: 'number', correct: false},
+      { text: 'variable', correct: false},
+      { text: 'operator', correct: true}
+    ]
+    }, 
+
+    {
+      question: 'With JavaScript, the most common way to assign a value to a variable is by using what?',
+      answers: [
+        { text: 'equal sign', correct: true},
+        { text: 'Semicolon', correct: false},
+        { text: 'HTML', correct: false},
+        { text: 'Arrow Function', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'With JavaScript, the second control statement in a for loop usually does what?',
+      answers: [
+        { text: 'Sets the Termination Condition', correct: true},
+        { text: 'Increments a Counter', correct: false},
+        { text: 'Creates a control variable', correct: false},
+        { text: 'Trick Question. for loops only have one control statement', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'With JavaScript, how do you call a function named \'myFunction\'?',
+      answers: [
+        { text: 'call function myFunction()', correct: false},
+        { text: 'call myFunction()', correct: false},
+        { text: 'myFunction()', correct: true},
+        { text: 'run Function(my)', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'With JavaScript, what is the correct way to create an array?',
+      answers: [
+        { text: 'var mycards = new Array(1:\"Clubs\", 2:\"Hearts\", 3:\"Spades\", 4:\"Diamonds\")', correct: false},
+        { text: 'var mycards = new Array[\"Clubs\", \"Hearts\", \"Spades\", \"Diamonds\"]', correct: true},
+        { text: 'var mycards = new Array(1=\"Clubs\", 2=\"Hearts\", 3=\"Spades\", 4=\"Diamonds\")', correct: false},
+        { text: 'var mycards = new Array(\"Clubs\", \"Hearts\", \"Spades\", \"Diamonds\")', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'With JavaScript, how do you round the number 7.25 to the nearest integer?',
+      answers: [
+        { text: 'Math.round(7.25)', correct: true},
+        { text: 'Math.floor(7.25)', correct: false},
+        { text: 'Math.ceil(7.25)', correct: false},
+        { text: 'roundUp(7.25)', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'In which HTML element does JavaScript go into?',
+      answers: [
+       { text: '<script>', correct: true},
+        { text: '<javascript>', correct: false},
+        { text: '<js>', correct: false},
+        { text: '<scripting>', correct: false}
+      ]
+      }, 
 
   ]
