@@ -68,7 +68,7 @@ function selectAnswer(e){
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
-  if (shuffledQuestions.lenght > currentQuestionIndex + 1){
+  if (shuffledQuestions.length > currentQuestionIndex + 1){
     nextButton.classList.remove('hide')
   } else {
     startButton.innerText = "Restart"
@@ -103,6 +103,7 @@ let questions = [
       { text: '22', correct: false}
     ]
   },
+
   {
   question: 'JavaScript is case-sensitive',
   answers: [
@@ -110,6 +111,7 @@ let questions = [
     { text: 'False', correct: false}
   ]
   },
+
   {
   question: 'With JavaScript, the third control statement in a for loop usually does what?',
   answers: [
@@ -118,6 +120,7 @@ let questions = [
     { text: 'Creates a control variable', correct: false}
   ]
   },
+
   {
   question: 'Which event is used to run something after the page has finished loading?',
   answers: [
@@ -126,4 +129,5 @@ let questions = [
     { text: 'onload', correct: true}
   ]
   }
+
   ]
