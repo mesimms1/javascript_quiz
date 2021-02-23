@@ -241,4 +241,181 @@ let questions = [
       ]
       }, 
 
+    {
+      question: 'With JavaScript, what is the corrent way to return a random number between 0 and 1?',
+      answers: [
+       { text: 'document.write(Math.random());', correct: true},
+        { text: 'document.write(Math.rnd());', correct: false},
+        { text: 'document.write(random());', correct: false},
+        { text: 'document.write(rnd());', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'JavaScript is the same as Java',
+      answers: [
+        { text: 'True', correct: false},
+        { text: 'False', correct: true}
+      ]
+      },
+
+    {
+      question: 'With JavaScript, what is the correct syntax for opening a new window called \'w2\'',
+      answers: [
+        { text: 'w2=window.open(\"http://www.w3schools.com\");', correct: true},
+        { text: 'w2=window.new(\"http://www.w3schools.com\");', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'The JavaScript international standard is called?',
+      answers: [
+        { text: 'ECMAScript', correct: true},
+        { text: 'Java', correct: false},
+        { text: 'ISO-262', correct: false}
+      ]
+      },
+      
+    {
+      question: 'With JavaScript, how does a \'while\' loop start?',
+      answers: [
+        { text: 'while (i <= 10)', correct: true},
+        { text: 'while i = i to 10', correct: false},
+        { text: 'while (i <= 10; i++)', correct: false}
+      ]
+      }, 
+
+    {
+      question: 'With JavaScript, how do you write a conditional statement for executing some code if \'i\' is not equal to 5?',
+      answers: [
+        { text: 'if (i != 5)', correct: true},
+        { text: 'if i <> 5', correct: false},
+        { text: 'if (i =! 5) then', correct: false},
+        { text: 'if (i not 5)', correct: false}
+      ]
+      },
+      
+    {
+      question: 'How many buttons are there in a Javascript alert box?',
+      answers: [
+        { text: 'none', correct: false},
+        { text: 'one', correct: true},
+        { text: 'two', correct: false},
+        { text: 'three', correct: false}
+      ]
+      },
+
+    {
+      question: 'Most event handlers are added where?',
+      answers: [
+        { text: 'to an external JavaScript', correct: false},
+        { text: 'to JavaScript functions', correct: false},
+        { text: 'within the HTML that is to trigger the event', correct: true}
+      ]
+      },
+
+    {
+      question: 'A variable that your webpage can store on or retrieve from the users computer is called?',
+      answers: [
+        { text: 'Session', correct: false},
+        { text: 'Java', correct: false},
+        { text: 'Applet', correct: false},
+        { text: 'Cookie', correct: true}
+      ]
+      },
+
+    {
+      question: 'Where is the correct place to insert a JavaScript',
+      answers: [
+        { text: 'Only in the \<head\> section', correct: false},
+        { text: 'Only in the \<body\> section', correct: false},
+        { text: 'Both the \<head\> section and the \<body\> section are correct', correct: true}
+      ]
+      },
+
+    {
+      question: 'With JavaScript, how do you round the number 7.25 downwards to the nearest integer?',
+      answers: [
+        { text: 'Math.round(7.25)', correct: false},
+        { text: 'Math.floor(7.25)', correct: true},
+        { text: 'Math.ceil(7.25)', correct: false}
+      ]
+      },
+
+    {
+      question: 'With JavaScript, how do you round the number 7.25 upwards to the nearest integer?',
+      answers: [
+        { text: 'Math.round(7.25)', correct: false},
+        { text: 'Math.floor(7.25)', correct: false},
+        { text: 'Math.ceil(7.25)', correct: true}
+      ]
+      },
+
+    {
+      question: 'With JavaScript, how do you create a function named \'function\'?',
+      answers: [
+        { text: 'function = myFunction()', correct: false},
+        { text: 'function myFunction()', correct: true},
+        { text: 'function: myFunction()', correct: false}
+      ]
+      },
+
+    {
+      question: 'Clicking an input field on a page with the mouse will trigger which event?',
+      answers: [
+        { text: 'onfocus', correct: false},
+        { text: 'onclick', correct: false},
+        { text: 'onmousedown', correct: false},
+        { text: 'all of the events mentioned will be triggered', correct: true},
+      ]
+      },
+
+    {
+      question: 'Clicking an input field on a page with the mouse will trigger which event?',
+      answers: [
+        { text: 'onfocus', correct: true},
+        { text: 'onclick', correct: false},
+        { text: 'onmousedown', correct: false},
+        { text: 'all of the events mentioned will be triggered', correct: false},
+      ]
+      },
+
+      {
+        question: 'Clicking an input field on a page with the mouse will trigger which event?',
+        answers: [
+          { text: 'onfocus', correct: true},
+          { text: 'onclick', correct: false},
+          { text: 'onmousedown', correct: false},
+          { text: 'all of the events mentioned will be triggered', correct: false}
+        ]
+        },
+
+      {
+        question: 'An external JavaScript cannot contain the \<script\> tag',
+        answers: [
+          { text: 'True', correct: true},
+          { text: 'False', correct: false}
+        ]
+        },
+
+      {
+        question: 'With JavaScript, in a Switch statement, which command skips the rest of a case statement?',
+        answers: [
+          { text: 'return', correct: false},
+          { text: 'exit', correct: false},
+          { text: 'drop', correct: false},
+          { text: 'break', correct: true}
+        ]
+        },
+
+      {
+        question: 'What is the correct JavaScript syntax to refer to an external script file called \'script.js?\'',
+        answers: [
+          { text: '<script href=\"script.js\"', correct: false},
+          { text: '<script src=\"script.js\"', correct: true},
+          { text: '<script name=\"script.js\"', correct: false},
+          { text: '<script \"script.js\"', correct: false}
+        ]
+        },
+
   ]
