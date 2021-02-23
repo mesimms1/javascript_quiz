@@ -417,5 +417,5 @@ let questions = [
           { text: '<script \"script.js\"', correct: false}
         ]
         },
-
+//Stopped on Question 34
   ]
