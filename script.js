@@ -417,5 +417,231 @@ let questions = [
           { text: '<script \"script.js\"', correct: false}
         ]
         },
-//Stopped on Question 34
+
+      {
+        question: 'How do you add quotes inside of a string value of a JavaScript variable?',
+        answers: [
+          { text: 'var txt = "Spoke the Raven, + \"Nevermore.\"', correct: false},
+          { text: 'var txt = "Spoke the Raven, \\"Nevermore.\\"', correct: true},
+          { text: 'var txt = "Spoke the Raven, [\"Nevermore.\"]', correct: false}
+        ]
+        },
+
+      {
+        question: 'Which of the following can be done with JavaScript?',
+        answers: [
+          { text: 'form validation', correct: false},
+          { text: 'Browser Detection', correct: false},
+          { text: 'Create Cookies', correct: false}, 
+          { text: 'All of the above', correct: true}
+        ]
+        },
+
+      {
+        question: 'In JavaScript, which of the following is not Only a mathematical operator?',
+        answers: [
+          { text: '+', correct: true},
+          { text: '-', correct: false},
+          { text: '*', correct: false}, 
+          { text: 'All three only work as an operator', correct: false}
+        ]
+        },
+
+      {
+        question: 'onclick is the equivalent of which two other events',
+        answers: [
+          { text: 'onmouseover and onmousedown', correct: false},
+          { text: 'onmousedown and onmouseout', correct: false},
+          { text: 'onmousedown and onmouseup', correct: true}, 
+          { text: 'onmouseup and onmouseout', correct: false}
+        ]
+        },
+
+      {
+        question: 'Which BEST describes JavaScript?',
+        answers: [
+          { text: 'a server-side scripting language', correct: false},
+          { text: 'a scripting language precompiled in the browser', correct: false},
+          { text: 'an object-oriented scripting language', correct: true}, 
+          { text: 'None of these descriptions apply to JavaScript', correct: false}
+        ]
+        },
+
+      {
+      question: 'In JavaScript, how do you create an alert box with the message \"I\'m an alert box\"',
+      answers: [
+        { text: 'msgBox(\"I\'m an alert box\");', correct: false},
+        { text: 'var alertBox = \"I\'m an alert box\";', correct: false},
+        { text: 'alert(\"I\'m an alert box\");', correct: true}, 
+        { text: 'alertBox = \"I\'m an alert box\";', correct: false}
+      ]
+      },
+
+    {
+    question: 'In JavaScript, x++ is the same as which of the following:',
+    answers: [
+      { text: 'x = x + 1;', correct: true},
+      { text: 'x = x + x;', correct: false},
+      { text: 'x = x * x;', correct: false}
+    ]
+    },
+
+  {
+    question: 'Which JavaScript event is detected when the mouse moves over a link?',
+    answers: [
+      { text: 'onmouseover', correct: true},
+      { text: 'onmouseout', correct: false},
+      { text: 'onmousedown', correct: false},
+      { text: 'onclick', correct: false}
+    ]
+    },
+
+  {
+    question: 'Which JavaScript, how would you see if all three variables are equal?',
+    answers: [
+      { text: '(x==y)&&(y==z)', correct: true},
+      { text: '(x==y)||(y==z)', correct: false},
+      { text: '(x=y)&&(y=z)', correct: false},
+      { text: '(x==y)&(y==z)', correct: false}
+    ]
+    },
+  
+  {
+    question: 'Which JavaScript, which property is used to redirect a user to another page?',
+    answers: [
+      { text: 'document.url', correct: false},
+      { text: 'window.location', correct: true},
+      { text: 'window.href', correct: false},
+      { text: 'document.href', correct: false}
+    ]
+    },
+
+  {
+    question: 'With JavaScript, which label catches all values except those specified in a Switch statement?',
+    answers: [
+      { text: 'default', correct: true},
+      { text: 'else', correct: false},
+      { text: 'other', correct: false},
+      { text: 'case', correct: false}
+    ]
+    },
+
+  {
+    question: 'With JavaScript, how do you read the first character in a string?',
+    answers: [
+      { text: 'stringName.charAt(0)', correct: true},
+      { text: 'stringName.charAt(1)', correct: false},
+      { text: 'stringName.substr(0)', correct: false},
+      { text: 'stringName.substr(1)', correct: false}
+    ]
+    },
+
+  {
+    question: 'A JavaScript statement should end with what?',
+    answers: [
+      { text: 'comma', correct: false},
+      { text: 'semicolon', correct: true},
+      { text: 'colon', correct: false},
+      { text: 'bracket', correct: false}
+    ]
+    },
+
+  {
+    question: 'How can you add a comment in JavaScript',
+    answers: [
+      { text: '<!--This is a comment-->', correct: false},
+      { text: '\'This is a comment\'', correct: false},
+      { text: '//This is a comment', correct: true},
+      { text: '*This is a comment*', correct: false}
+    ]
+    },
+
+  {
+    question: 'Actions that can be detected by JavaScript are called?',
+    answers: [
+      { text: 'Arrays', correct: false},
+      { text: 'Events', correct: true},
+      { text: 'Cookies', correct: false},
+      { text: 'Classes', correct: false}
+    ]
+    },
+
+  {
+    question: 'Which of the following is not a built-in JavaScript object?',
+    answers: [
+      { text: 'Time', correct: true},
+      { text: 'Array', correct: false},
+      { text: 'Date', correct: false},
+      { text: 'Math', correct: false}
+    ]
+    },
+
+  {
+    question: 'Which event is triggered when a form field is changed?',
+    answers: [
+      { text: 'onsubmit', correct: false},
+      { text: 'onblur', correct: false},
+      { text: 'onclick', correct: false},
+      { text: 'onchange', correct: true}
+    ]
+    },
+
+    {
+      question: 'With JavaScript, how does a \"for\" loop start?',
+      answers: [
+        { text: 'for(i=0; i <=5)', correct: false},
+        { text: 'for i=1 to i=5', correct: false},
+        { text: 'for (i<=5; i++)', correct: false},
+        { text: 'for (i=0; i<=5; i++)', correct: true}
+      ]
+      },
+
+    {
+      question: 'With JavaScript, how do you reference an entry in an array?',
+      answers: [
+        { text: 'myArray(entry)', correct: false},
+        { text: 'myArray[entry]', correct: true},
+        { text: 'myArray{entry}', correct: false},
+        { text: 'myArray<entry>', correct: false}
+      ]
+      },
+
+    {
+      question: 'With JavaScript, what operator do you use for multiplication?',
+      answers: [
+        { text: '*', correct: true},
+        { text: 'x', correct: false},
+        { text: 'X', correct: false},
+        { text: '++', correct: false}
+      ]
+      },
+
+    {
+      question: 'With JavaScript, can HTML markup be added in a text string?',
+      answers: [
+        { text: 'Yes', correct: true},
+        { text: 'No', correct: false}
+      ]
+      },
+
+      {
+        question: 'With JavaScript, pressing down on a mouse button triggers which event?',
+        answers: [
+          { text: 'onmouseover and onclick', correct: false},
+          { text: 'onclick', correct: false},
+          { text: 'onmouseover', correct: false},
+          { text: 'onmousedown', correct: true}
+        ]
+        },
+
+      {
+        question: 'What is the correct JavaScript syntax to change the content of an HTML element with a <p> and id=\"demo\"',
+        answers: [
+          { text: 'document.getElementByName(\"p\").innerHTML= \"Replacement Text\"', correct: false},
+          { text: 'document.getElementById(\"demo\").innerHTML= \"Replacement Text\"', correct: true},
+          { text: 'document.getElement(\"p\").innerHTML= \"Replacement Text\"', correct: false},
+          { text: '#demo.innerHTML = \"Replacement Text\"', correct: false}
+        ]
+        },
+//stopped at question 59
   ]
