@@ -643,5 +643,105 @@ let questions = [
           { text: '#demo.innerHTML = \"Replacement Text\"', correct: false}
         ]
         },
-//stopped at question 59
+
+      {
+        question: 'With JavaScript, which of the following is NOT a type of popup box?',
+        answers: [
+          { text: 'Alert', correct: false},
+          { text: 'Confirm', correct: false},
+          { text: 'Prompt', correct: false},
+          { text: 'Radio', correct: true}
+        ]
+        },
+
+      {
+        question: 'With JavaScript, do while (x < y) runs?',
+        answers: [
+          { text: 'until x >= y', correct: true},
+          { text: 'until x > y', correct: false},
+          { text: 'until x < y', correct: false},
+          { text: 'until x <= y', correct: false}
+        ]
+        },
+
+      {
+        question: 'External JavaScript scripts can be linked into more than one page?',
+        answers: [
+          { text: 'True', correct: true},
+          { text: 'False', correct: false}
+        ]
+        },
+
+      {
+        question: 'With JavaScript, how can you find the browser name of the client?',
+        answers: [
+          { text: 'navigator.appName', correct: true},
+          { text: 'window.appName', correct: false},
+          { text: 'browser.appName', correct: false},
+          { text: 'document.appName', correct: false}
+        ]
+        },
+
+
+        {
+          question: 'With JavaScript, how do you define a numerical value?',
+          answers: [
+            { text: 'var x = 3;', correct: true},
+            { text: 'var x = Math(3);', correct: false},
+            { text: 'Math.x = 3;', correct: false},
+            { text: 'var x = \"3\"', correct: false}
+          ]
+          },
+
+        {
+          question: 'With JavaScript, how can you convert comma separated values into an array?',
+          answers: [
+            { text: 'txtArray=txt.indexOf(\",\")', correct: false},
+            { text: 'txtArray=txt.split(\",\")', correct: true},
+            { text: 'txtArray=txt.trim(\",\")', correct: false},
+            { text: 'txtArray=txt.substr(\",\")', correct: false}
+          ]
+          },
+
+        {
+          question: 'With JavaScript, how would you change the date to one week later?',
+          answers: [
+            { text: 'myDate.setDate(+7)', correct: false},
+            { text: 'myDate.setDate(myDate.getDate()+7)', correct: true},
+            { text: 'myDate.chgDate(myDate.getDate()+7)', correct: false},
+            { text: 'myDate.chgDate(+7)', correct: false}
+          ]
+          },
+
+        {
+          question: 'Which event is specific to the keyboard?',
+          answers: [
+            { text: 'onclick', correct: false},
+            { text: 'onfocus', correct: false},
+            { text: 'onkeydown', correct: true},
+            { text: 'hover', correct: false}
+          ]
+          },
+
+        {
+          question: 'With JavaScript, the first control statement in a for loop does what?',
+          answers: [
+            { text: 'sets the termination condition', correct: false},
+            { text: 'increments the counter', correct: false},
+            { text: 'runs the function', correct: false},
+            { text: 'creates a control variable', correct: true}
+          ]
+          },
+
+        {
+          question: 'With JavaScript, which code has no syntax error',
+          answers: [
+            { text: 'alert(\"Hello Mr. \" + lastName + \". How are you doing?\");', correct: true},
+            { text: 'alert(Hello Mr.  + lastName + . How are you doing?);', correct: false},
+            { text: 'alert(Hello Mr. \" + lastName + \". How are you doing?\");', correct: false},
+            { text: 'alert(\"Hello Mr.  + lastName + . How are you doing?\");', correct: false}
+          ]
+          },
+//stopped on question 69. Image 84
+
   ]
