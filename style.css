@@ -86,3 +86,36 @@ body.wrong {
 .hide{
   display: none;
 }
+
+/* Container holding the image and the text */
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white; 
+  margin: 40px;
+}
+
+.row {
+  display: flex;
+  gap: 25px;
+}
+
+.col {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.logo {
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.89);
+  border-radius: 7px;
+  height: 150px;
+  width: auto;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+
+}
