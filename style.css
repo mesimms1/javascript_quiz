@@ -119,3 +119,24 @@ body.wrong {
   right: 1px;
 
 }
+
+.title {
+  position: relative;
+  margin: 2rem;
+
+}
+
+#javascript {
+  width: 8em;
+  height: 8em;
+  border-radius: 7px;
+  margin: 10px;
+  float: left;
+  margin-top: 25px;
+}
+
+.intro {
+  color: white;
+  line-height: 95%;
+}
+
