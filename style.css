@@ -32,6 +32,27 @@ body.wrong {
   
 }
 
+.title {
+  position: relative;
+  margin: 2rem;
+
+}
+
+#javascript {
+  width: 8em;
+  height: 8em;
+  border-radius: 7px;
+  margin: 10px;
+  float: left;
+  margin-top: 25px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.89);
+}
+
+.intro {
+  color: white;
+  line-height: 95%;
+}
+
 .container{
   width: 800px;
   max-width: 80%;
@@ -39,6 +60,7 @@ body.wrong {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 7px 2px;
+  margin: auto;
 }
 
 .btn-grid{
@@ -120,23 +142,5 @@ body.wrong {
 
 }
 
-.title {
-  position: relative;
-  margin: 2rem;
 
-}
-
-#javascript {
-  width: 8em;
-  height: 8em;
-  border-radius: 7px;
-  margin: 10px;
-  float: left;
-  margin-top: 25px;
-}
-
-.intro {
-  color: white;
-  line-height: 95%;
-}
 

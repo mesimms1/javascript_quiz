@@ -96,13 +96,6 @@ function clearStatusClass(element){
 
 //list of questions
 let questions = [
-  {
-    question: 'What is 2+2?',
-    answers: [
-      { text: '4', correct: true},
-      { text: '22', correct: false}
-    ]
-  },
 
   {
   question: 'JavaScript is case-sensitive',
@@ -742,6 +735,15 @@ let questions = [
             { text: 'alert(\"Hello Mr.  + lastName + . How are you doing?\");', correct: false}
           ]
           },
-//stopped on question 69. Image 84
+
+        {
+          question: 'With JavaScript, how do you find the number with the highest value of x and y?',
+          answers: [
+            { text: 'Math max.(x,y)', correct: true},
+            { text: 'Math ceil.(x,y)', correct: false},
+            { text: 'Math top.(x,y)', correct: false},
+            { text: 'Math high.(x,y)', correct: false}
+          ]
+          }
 
   ]
